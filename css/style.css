@@ -1,0 +1,203 @@
+/** @ Zye-design all rights reserved *\
+
+/** Custom Properties */
+
+
+   :root {
+    /** Color */
+  
+
+    --medium-blue: hsl(201, 100%, 36%);
+    --zye-blue: hsl(224, 77%, 51%);
+    --cool-yellow: hsl(54, 91%, 86%);
+    --light-cool-1: hsl(204, 92%, 90%);
+    --light-cool-2: hsla(244, 59%, 11%, 0.7);
+    --light-cool-3: hsl(189, 75%, 75%);
+    --Deep-cool: hsl(199, 70%, 38%);
+    --cultured-1: hsl(216, 38%, 95%);
+    --text-color-1: hsl(218, 17%, 62%);
+    --text-color-3: hsl(210, 11%, 15%);
+    --text-color-2: hsl(240, 22%, 25%);
+    --pale-purple-pantone: hsl(262, 63%, 92%);
+    --mimi-pink: hsl(329, 63%, 90%);
+    --manatee: hsl(219, 14%, 60%);
+    --white: hsl(0, 0%, 100%);
+  
+    --gradient: linear-gradient(115deg, hsla(240, 46%, 42%, 0.8),hsla(240, 42%, 67%, 0.7));
+  
+    /**
+  *typography 
+  */
+  
+    --ff-nunito: "Nunito", sans-serif;
+    --ff-open-sans: "Open Sans", sans-serif;
+  
+    --fs-1: 2.125rem;
+    --fs-2: 1.875rem;
+    --fs-3: 1.5rem;
+    --fs-4: 1.125rem;
+    --fs-5: 1rem;
+    --fs-6: 0.875rem;
+    --fs-7: 0.625rem;
+  
+    --fw-400: 400;
+    --fw-600: 600;
+  
+    /**
+  *transition
+  */
+  
+    --transition: 0.5s ease;
+  
+    /**
+  *spacing
+  */
+  
+    --section-padding: 50px;
+  
+    /**
+  *radius
+  */
+    --radius-10: 10px;
+    --radius-14: 14px;
+    --radius-18: 18px;
+  
+    /**
+  * Shadow
+  */
+    --shadow-1: 3px 3px 9px hsla(240, 23%, 69%, 0.2);
+    --shadow-2: 3px 3px 9px hsla(241, 68%, 50%, 0.3);
+  
+     
+  }
+  /*-----------------------------------*\
+        Reset
+\*-----------------------------------*/
+
+* {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  input, select, textarea {
+    width: 90%;
+  }
+  
+  
+  html {
+    font-family: var(--ff-open-sans);
+    color: var(--text-color-3);
+    line-height: 1.5;
+    scroll-behavior: smooth;
+  }
+  
+
+
+  
+
+    /*-----------------------------------*\
+            main section
+    \*-----------------------------------*/
+  
+    body{
+        width: 100vw;
+        background-image: var(--gradient), url("../images/zye\ office.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: var(--ff-open-sans);
+        color: var(--white);
+    }
+
+    
+
+    .title{
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 5px;
+        font-weight: var(--fw-400);
+    }
+
+    .description{
+        text-align: center;
+        font-style: italic;
+    }
+
+    #survey-form{
+        background-color: var(--light-cool-2);
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 10px;
+        max-width: 900px;
+        min-width: 350px;
+    }
+
+    .survey-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 1.25rem auto;
+        padding: 0.25rem;
+
+    }
+
+    label{
+
+        width: 90%;
+        margin-bottom: 10px;
+        font-size: var(--fs-4);
+        padding-top: 10px;
+    }
+
+    input, select{
+        height: 40px;
+        border-radius: 10px;
+        font-size: var(--fs-5);
+    }
+
+    input[type="radio"], input[type="checkbox"]{
+      height: 20px;
+      margin-left: 20px;
+      width: 10%;
+    }
+
+    .survey-form-radio, .checkbox{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    textarea{
+
+      height: 100px;
+      font-size: 1rem;
+      border-radius: 10px;
+      padding-left: 7px;
+      padding-top: 10px;
+    }
+
+    input[type="submit"]{
+      width: 90%;
+      color: var(--white);
+      background-color: var(--Deep-cool);
+      border: 2px solid var(--Deep-cool);
+      margin-bottom: 30px;
+    }
+
+    input[type="submit"]:is(:hover, :focus){
+       background-color: var(--white);
+       color: var(--Deep-cool);
+      }
+

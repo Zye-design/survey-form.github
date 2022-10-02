@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zye design survey</title>
+    <link
+      rel="shortcut icon"
+      href="./letter-z-svgrepo-com (1).svg"
+      type="image/svg+xml"
+    />
+
+    <!-- External css file link-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google font cdn link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- main section begin-->
+    <section class="main" id="survey">
+      <h1 class="title">zye design survey form</h1>
+      <p class="description">
+        Kindly take 5 minutes to help us improve our services
+      </p>
+
+      <form action="" id="survey-form">
+        <div class="survey-container">
+          <label for="name" id="name-label">name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="survey-container">
+          <label for="Email" id="email-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="survey-container">
+          <label for="age" id="number-label">Age</label>
+          <input
+            type="number"
+            min="12"
+            max="65"
+            id="age"
+            name="age"
+            placeholder="Age"
+            required
+          />
+        </div>
+        <div class="survey-container">
+          <label id="dropdown-label">How did you hear about us?</label>
+          <select name="dropdown" id="dropdown-enquiry">
+            <option value="">Select Your awareness means</option>
+            <option value="">Instagram</option>
+            <option value="">Facebook</option>
+            <option value="">Twitter</option>
+            <option value="">Search engines</option>
+            <option value="">Whatsapp</option>
+            <option value="">Others</option>
+          </select>
+        </div>
+        <div class="survey-container">
+          <label id="radio-label"
+            >How likely are you to recommend zye design to others??</label
+          >
+        </div>
+        <div class="survey-form-radio">
+          <label id="defintely"
+            ><input
+              type="radio"
+              value="defintely"
+              name="recommendation"
+            />Defintely</label
+          >
+        </div>
+        <div class="survey-form-radio">
+          <label id="maybe"
+            ><input
+              type="radio"
+              value="maybe"
+              name="recommendation"
+            />Maybe</label
+          >
+        </div>
+        <div class="survey-form-radio">
+          <label id="not sure"
+            ><input type="radio" value="not sure" name="recommendation" />Not
+            sure</label
+          >
+        </div>
+
+        <div class="survey-container">
+          <label id="dropdown-label"
+            >Which features are most valuable to you ?</label
+          >
+          <select name="dropdown" id="dropdown-services">
+            <option value="">Select your preferred service</option>
+            <option value="">Portfolio design</option>
+            <option value="">website design</option>
+            <option value="">mobile app design</option>
+            <option value="">graphic design</option>
+            <option value="">photography</option>
+            <option value="">Others</option>
+          </select>
+        </div>
+        <div class="survey-container">
+          <label id="pricing-label"
+            >How would you rate our pricing plans ?</label
+          >
+          <select name="dropdown" id="dropdown-pricing">
+            <option value="">Select your pricing rating</option>
+            <option value="">Excellent</option>
+            <option value="">Good</option>
+            <option value="">satisfactory</option>
+            <option value="">fair</option>
+            <option value="">too expensive</option>
+          </select>
+        </div>
+        <div class="survey-container">
+          <label id="checkbox-label"
+            >How can we improve our services? (click all that applies)</label
+          >
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="improvement" value="1" /><label>
+            Reduction in pricing</label
+          >
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="improvement" value="2" /><label>
+            Time management</label
+          >
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="improvement" value="3" /><label>
+            increase staff capacity</label
+          >
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="improvement" value="4" /><label>
+            increase awareness</label
+          >
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="improvement" value="5" /><label>
+            initiate promo's</label
+          >
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="improvement" value="6" /><label>
+            experience hire</label
+          >
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="improvement" value="7" /><label>
+            internship & volunteers</label
+          >
+        </div>
+
+        <div class="survey-container">
+          <label id="comparison-label"
+            >How would you compare our services to our competitors’ ?</label
+          >
+          <select name="dropdown" id="comparison-label">
+            <option value="">Select your rating level</option>
+            <option value="">Good</option>
+            <option value="">better</option>
+            <option value="">satisfactory</option>
+            <option value="">fair</option>
+            <option value="">poor</option>
+            <option value="">not sure</option>
+          </select>
+        </div>
+
+        <div class="survey-container">
+          <label id="service-usage-label"
+            >How often do you use our services?</label
+          >
+        </div>
+        <div class="survey-form-radio">
+          <label id="daily"
+            ><input type="radio" value="daily" name="service usage" />daily
+          </label>
+        </div>
+        <div class="survey-form-radio">
+          <label id="weekly"
+            ><input type="radio" value="weekly" name="service usage" />weekly
+          </label>
+        </div>
+        <div class="survey-form-radio">
+          <label id="monthly"
+            ><input type="radio" value="monthly" name="service usage" />monthly
+          </label>
+        </div>
+        <div class="survey-form-radio">
+          <label id="never-used"
+            ><input type="radio" value="never-used" name="service usage" />never
+            used
+          </label>
+        </div>
+        <br />
+        <div class="survey-container">
+          <label id="label-textarea"
+            >What important features are we missing?</label
+          >
+          <textarea
+            name="suggestions"
+            id="suggestions"
+            cols="30"
+            rows="10"
+            placeholder="enter your suggestions here..."
+          ></textarea>
+        </div>
+        <div class="survey-container btn">
+          <input type="submit" value="submit" />
+        </div>
+      </form>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
