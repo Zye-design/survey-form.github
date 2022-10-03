@@ -1,5 +1,5 @@
 # survey-form.github
-A survey form created for CWW Tech Africa group 15 project
+# A survey form created for CWW Tech Africa group 15 project
 
 The form was created by a team that consisted of 2 people:
 * Udoh Timothy - 14902
