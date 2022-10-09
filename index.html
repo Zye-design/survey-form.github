@@ -30,7 +30,15 @@
         Kindly take 5 minutes to help us improve our services
       </p>
 
-      <form action="" id="survey-form">
+      <form
+        action="/success/"
+        id="survey-form"
+        method="post"
+        data-netlify="true"
+        onsubmit="submit"
+        data-netlify-honeypot="bot-field"
+      >
+        <input name="bot-field" style="display: none" />
         <div class="survey-container">
           <label for="name" id="name-label">name</label>
           <input

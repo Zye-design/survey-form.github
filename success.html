@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zye design survey</title>
+    <link
+      rel="shortcut icon"
+      href="./letter-z-svgrepo-com (1).svg"
+      type="image/svg+xml"
+    />
+
+    <!-- Google font cdn link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        /** Color */
+
+        --medium-blue: hsl(201, 100%, 36%);
+        --zye-blue: hsl(224, 77%, 51%);
+        --cool-yellow: hsl(54, 91%, 86%);
+        --light-cool-1: hsl(204, 92%, 90%);
+        --light-cool-2: hsla(244, 59%, 11%, 0.7);
+        --light-cool-3: hsl(189, 75%, 75%);
+        --Deep-cool: hsl(199, 70%, 38%);
+        --cultured-1: hsl(216, 38%, 95%);
+        --text-color-1: hsl(218, 17%, 62%);
+        --text-color-3: hsl(210, 11%, 15%);
+        --text-color-2: hsl(240, 22%, 25%);
+        --pale-purple-pantone: hsl(262, 63%, 92%);
+        --mimi-pink: hsl(329, 63%, 90%);
+        --manatee: hsl(219, 14%, 60%);
+        --white: hsl(0, 0%, 100%);
+
+        --gradient: linear-gradient(
+          115deg,
+          hsla(240, 46%, 42%, 0.8),
+          hsla(240, 42%, 67%, 0.7)
+        );
+
+        /**
+  *typography 
+  */
+
+        --ff-nunito: "Nunito", sans-serif;
+        --ff-open-sans: "Open Sans", sans-serif;
+
+        --fs-1: 2.125rem;
+        --fs-2: 1.875rem;
+        --fs-3: 1.5rem;
+        --fs-4: 1.125rem;
+        --fs-5: 1rem;
+        --fs-6: 0.875rem;
+        --fs-7: 0.625rem;
+
+        --fw-400: 400;
+        --fw-600: 600;
+
+        /**
+  *transition
+  */
+
+        --transition: 0.5s ease;
+
+        /**
+  *spacing
+  */
+
+        --section-padding: 50px;
+
+        /**
+  *radius
+  */
+        --radius-10: 10px;
+        --radius-14: 14px;
+        --radius-18: 18px;
+
+        /**
+  * Shadow
+  */
+        --shadow-1: 3px 3px 9px hsla(240, 23%, 69%, 0.2);
+        --shadow-2: 3px 3px 9px hsla(241, 68%, 50%, 0.3);
+      }
+      /*-----------------------------------*\
+        Reset
+\*-----------------------------------*/
+
+      * {
+        outline: none;
+        border: none;
+        text-decoration: none;
+        text-transform: capitalize;
+      }
+
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      input,
+      select,
+      textarea {
+        width: 90%;
+      }
+
+      html {
+        font-family: var(--ff-open-sans);
+        color: var(--text-color-3);
+        line-height: 1.5;
+        scroll-behavior: smooth;
+      }
+
+      body {
+        width: 100vw;
+        background-image: var(--gradient), url("../images/zye\ office.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: var(--ff-open-sans);
+        color: var(--white);
+      }
+
+      .title {
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 5px;
+        font-weight: var(--fw-400);
+      }
+
+      .description {
+        text-align: center;
+        font-style: italic;
+      }
+      .btn-success {
+        display: inline-block;
+        padding: 14px 40px;
+        border-radius: 0.5rem;
+        font-size: 17px;
+        font-weight: 500;
+        background: var(--medium-blue);
+        color: var(--light-cool-1);
+        border: 1px solid var(--medium-blue);
+        transition: all 0.4s ease;
+        margin-left: 41.5%;
+        margin-top: 15px;
+      }
+      .btn-success:is(:focus, :hover) {
+        transform: scale(1.01) translateY(-5px);
+        background: transparent;
+        border: 1px solid var(--medium-blue);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- main section begin-->
+    <section class="main" id="survey">
+      <h1 class="title">Thank You For taking our improvement survey</h1>
+      <p class="description">Your responses have been recorded</p>
+      <a href="https://survey-zyedesign.netlify.app/" class="btn-success"
+        >Go back to main site</a
+      >
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
