@@ -7,7 +7,7 @@ The form was created by a team that consisted of 2 people:
 
  Zye Design Services was the case study and service quality questions was asked
 
-# Basically consisted of a form with the following features:
+ Basically consisted of a form with the following features:
 
 * selection action
 * textarea
@@ -15,4 +15,4 @@ The form was created by a team that consisted of 2 people:
 * checkboxes
 * input boxes
  
- # credit to CWW Tech Africa for the opportunity 
+  credit to CWW Tech Africa for the opportunity 
